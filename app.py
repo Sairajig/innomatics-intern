@@ -6,9 +6,9 @@ import requests
 import datetime
 
 # API Keys
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAXehSIPZDaWAbFE8xavz-rrEO-rPXPKAw'  
+os.environ['GOOGLE_API_KEY'] = 'YOUR_GOOGLE_API_KEY'  
 llm = GoogleGenerativeAI(model="gemini-1.5-pro-latest")
-UNSPLASH_ACCESS_KEY = "U22YDJh7jbaVAVHLu_awTDD_PPP74drYbz8WUjjIjXg"
+UNSPLASH_ACCESS_KEY = "YOUR_UNSPLASH_ACCESS_KEY"
 
 st.title('🌍 Explore the World with AI: Your Travel Companion')
 
