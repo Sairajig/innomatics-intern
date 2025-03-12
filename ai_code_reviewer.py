@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAXehSIPZDaWAbFE8xavz-rrEO-rPXPKAw")  # Replace with your actual API key
+genai.configure(api_key="YOUR_GOOGLE_API_KEY")  # Replace with your actual API key
 
 def get_code_review(code):
     """Send the code to Gemini API for review and get feedback."""
