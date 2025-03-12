@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
-API_KEY = "AIzaSyAOlCaVyq2zcuDNzFQqRzCsZATo-sACPTs"  
+API_KEY = "YOUR_GOOGLE_API_KEY"  
 if not API_KEY:
     st.error("⚠️ GOOGLE_API_KEY is missing! Please set it in the script.")
 else:
