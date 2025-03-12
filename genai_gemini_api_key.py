@@ -2,7 +2,7 @@ import google.generativeai as genai
 from IPython.display import Markdown, display
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAXehSIPZDaWAbFE8xavz-rrEO-rPXPKAw")  # Replace with your actual key
+genai.configure(api_key="YOUR_GOOGLE_API_KEY")  # Replace with your actual key
 
 # System prompt
 sys_prompt = """You are a helpful data science tutor. You can only resolve data science related queries.
